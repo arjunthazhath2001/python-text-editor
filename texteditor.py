@@ -4,7 +4,14 @@ import tkinter.filedialog
 root = Tk()
 root.title("Arjun's Text Editor")
 
+root['bg'] = 'lightgreen'
+# Along X-axis
+root['padx'] = 100
+# Along Y-axis
+root['pady'] = 50
+
 text= Text(root,font=("Arial",10))
+
 
 text.grid(row=0, column=0)
 
